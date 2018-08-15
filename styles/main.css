@@ -3,3 +3,44 @@
     display: flex;
   }
 }
+
+.header, .foot {
+  background-color: black;
+}
+
+.header, .foot, h1 {
+  color: white;
+  font-family: Poppins;
+}
+
+h1{
+  padding-left: 20%;
+  padding-right: 20%;
+  font-weight: 500;
+}
+.pink {
+  color: #FF537B;
+}
+.green {
+  color: #A0AE11;
+}
+.project-nav {
+  font-family: Bitter;
+}
+
+.header-nav_3 > li > a.accent {
+  border-bottom: 2px solid #FFFF; /* i dont like this */
+}
+
+.header-nav_3 > li > a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.header-nav_3 > li {
+  list-style: none;
+  font-family: Poppins;
+
+}
