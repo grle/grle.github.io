@@ -1,89 +1,109 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <title>Portfolio | Grace Lee</title>
+<head>
+  <title>Grace Lee | UX Designer</title>
 
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="styles/main.css">
-    <link href = "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600"
-    rel= "stylesheet">
-    <link href = "https://fonts.googleapis.com/css?family=Balthazar:300,400,500,600"
-    rel= "stylesheet">
-  </head>
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link href = "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600"
+  rel= "stylesheet">
+  <link href = "https://fonts.googleapis.com/css?family=Bitter:300,400,500,600"
+  rel= "stylesheet">
+</head>
 
-  <body>
-    <header class= "header">
-      <nav class="header-nav">
-        <ul class="header-nav_3">
-          <!-- links are not established yet -->
-          <li>
-            <a href="index.html">PORTFOLIO</a>
-          </li>
-          <li>
-            <a href="about.html">ABOUT</a>
-          </li>
-          <li>
-            <a href="contact.hmml">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
+
+<body>
+  <header class= "header">
+
+    <nav class="header-nav">
+      <!--icon :: NOTE make this link to homepage-->
+      <img src="images/Icon.png" class="icon">
+      <!-- navigate to pages here -->
+      <ul class="header-nav_3">
+        <li>
+          <a href="index.html" class="accent">PORTFOLIO</a>
+        </li>
+        <li>
+          <a href="about.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+
       <!-- Name MemeFolder -->
-      <h1>MemeFolder</h1>
-      <p>MemeFolder is a cloud storage app that allows users to easily
-      collect memes and reaction images from their social media,
-      as well as edit photos so that they can create their own memes</p>
-      <!-- change to href later-->
-      <a href="https://www.figma.com/file/7TosMbpay1aMCw36C0Qcgb/MemeFolder?node-id=125%3A1475">view prototype</a>
+      <div class= "intro">
+        <h1>MemeFolder</h1>
+        <h1 class= "blurb">MemeFolder is a cloud storage app that allows users to easily
+        collect memes and reaction images from their social media,
+        as well as edit photos so that they can create their own memes</h1>
+        <!-- change to href later-->
+        <button class="button_pink">
+          <a href="https://www.figma.com/file/7TosMbpay1aMCw36C0Qcgb/MemeFolder?node-id=125%3A1475">
+          view prototype</a>
+        </button>
+      </div>
     </header>
+    <div class="curve"></div>
 
     <!--01. ROLES-->
     <div class="roles">
-      <h3>DESIGN ROLES</h3>
-      <ul class="c1">
-        <li>UX Design</li>
-        <li>Research</li>
-        <li>Visual Design</li>
-        <li>Brand & Identity</li>
-      </ul>
+      <div class="c1">
+        <h5>DESIGN ROLES</h5>
+        <ul>
+          <li>UX Design</li>
+          <li>Research</li>
+          <li>Visual Design</li>
+          <li>Brand & Identity</li>
+        </ul>
+      </div>
 
-      <h3>DELIVERABLES</h3>
-      <ul class="c1">
-        <li>User Surveys</li>
-        <li>Personas</li>
-        <li>User Stories</li>
-        <li>User Flow</li>
-        <li>Competitive Analysis</li>
-        <li>Wireframes</li>
-        <li>Style Guide</li>
-        <li>User Testing</li>
-        <li>User Research</li>
-        <li>Prototype</li>
-      </ul>
+      <div class="c1">
+        <h5>DELIVERABLES</h5>
+        <ul>
+          <li>User Surveys</li>
+          <li>Personas</li>
+          <li>User Stories</li>
+          <li>User Flow</li>
+          <li>Competitive Analysis</li>
+          <li>Wireframes</li>
+          <li>Style Guide</li>
+          <li>User Testing</li>
+          <li>User Research</li>
+          <li>Prototype</li>
+        </ul>
+      </div>
 
-      <h3>TOOLS</h3>
-      <ul class="c1">
-        <li>InVision</li>
-        <li>Adobe Photoshop</li>
-        <li>Figma</li>
-        <li>Google Surveys</li>
-        <li>Peek User Testing</li>
-        <li>Usability Hub</li>
-        <li>Google Form Surveys</li>
-      </ul>
+      <div class="c1">
+        <h5>TOOLS</h5>
+        <ul>
+          <li>InVision</li>
+          <li>Adobe Photoshop</li>
+          <li>Figma</li>
+          <li>Google Surveys</li>
+          <li>Peek User Testing</li>
+          <li>Usability Hub</li>
+          <li>Google Form Surveys</li>
+        </ul>
+      </div>
+
+    </div>
 
 
       <!--02. OVERVIEW-->
       <h2>OVERVIEW</h2>
       <p>When this project started, I was asked to build a cloud storage program
-        that allowed users to the following things:
+        that allowed users to the following things:</p>
+        <ul class="num_list">
+          <li>1) save content from the internet</li>
+          <li>2) organize content</li>
+          <li>3) create content or uploading files from a hard drive</li>
+          <li>4) share items from the cloud to other people and collaborate</li>
+        </ul>
 
-        1) save content from the internet
-        2) organize content
-        3) create content or uploading files from a hard drive
-        4) share items from the cloud to other people and collaborate
-
-        There was not a lot of specific directives to follow regarding this
+      <p>There was not a lot of specific directives to follow regarding this
         process outside the objectives stated above. However, after going
         through several different iterations of the possible directions for this
         program’s brand, I decided on MemeFolder, a program that allows users to
@@ -122,24 +142,31 @@
         survey went as follows:
       </p>
       <p class= "white-center">80% of users have a cloud storage
-        The most common reasons why people use a cloud storage is
-        1) for work/school: 85.7%
-        2) personal reasons: 71.4%
-        3) collaboration and file sharing: 64.3%
+        The most common reasons why people use a cloud storage is</p>
+        <ul class="num_list">
+          <li>1) for work/school: 85.7%</li>
+          <li>2) personal reasons: 71.4%</li>
+          <li>3) collaboration and file sharing: 64.3%</li>
+        </ul>
 
-        When asked what features they rely on, 82.1% of users
-        1) upload files to backup data
-        2) upload files for easy access between devices
-        3) file sharing with friends/colleagues.
+      <p>When asked what features they rely on, 82.1% of users</p>
+        <ul class="num_list">
+          <li>1) upload files to backup data</li>
+          <li>2) upload files for easy access between devices</li>
+          <li>3) file sharing with friends/colleagues</li>
+        </ul>
 
-        Majority of people surveyed are Millennials or Generation Z.
+      <p>Majority of people surveyed are Millennials or Generation Z.
       </p>
       <!-- change to href later-->
-      <h4>view survey questions</h4>
+      <button class="button_pink">
+        <a href="">view survey questions</a>
+      </button>
       <p>My intention was to create a cloud storage that addressed the
         aforementioned issues, which is evident in early prototypes. However,
-        the idea for the meme editing feature came because 100% of the surveyed
-        users are active participants of social media.
+        the idea for the meme editing feature came because
+        <span class="underline_green">100% of the surveyed
+        users are active participants of social media.</span>
       </p>
 
 
@@ -149,87 +176,88 @@
         users were profiled after the Facebook controversy and how they violated
         user privacy, which affected how they responded to the questions.
       </p>
-      <ul class="persona">
-        <img src="images/UserPersona/Azul.png">
-        <h4 class="p-title">AZUL</h4>
-        <h4 class="p-description">reluctant user</h4>
-        <li>Age: 33 years</li>
-        <li>Sex: Female</li>
-        <li>Occupation: Medical Interpreter</li>
-        <li>Location: Yucatan, MX</li>
-        <li>MOTIVATIONS:</li>
-        <li>An avid nature lover, Azul first started using cloud storages so
-          that she can enjoy the outdoors while doing her homework on Google Drive
-          from her phone. While she is currently an infrequent user now that she
-          has left her college years, Azul seems to be motivated by the
-          convenience that cloud storages can give her, and the freedom of
-          movement so that she can do her work wherever she wants.
-        </li>
-        <li>GOALS:</li>
-        <li>1. Save her writing and pictures</li>
-        <li>2. Share files with friends</li>
-        <li>3. Backing up important personal data</li>
-        <li>FRUSTRATIONS:</li>
-        <li>1. Inability to trust how the companies managing cloud storages use
-          people’s personal information</li>
-        <li>2. Lack of ethics in large companies like Google and Facebook</li>
-        <li>3. Inability to personalize/accessorize cloud storages</li>
-        <li>BIOGRAPHY</li>
-        <li>Azul lives with her cat in Mexico. An introvert with social anxiety,
-          she is an avid user of social media, which she relies on to make
-          connections with online communities. She is passionate about social
-          justice and has a strong sense of ethics and morality. On her time
-          off, she loves playing the ukelele and singing songs, as well as
-          reading and writing.
-        </li>
-      </ul>
-      <ul class="persona">
-        <img src="images/UserPersona/Charlene.png">
-        <h4 class="p-title">CHARLENE</h4>
-        <h4 class="p-description">ethical pragmatist</h4>
-        <li>Age: 22 years</li>
-        <li>Sex: Non-Binary</li>
-        <li>Occupation: Student</li>
-        <li>Location: Lawndale, CA</li>
-        <li>MOTIVATIONS</li>
-        <li>Charlene primarily uses cloud storage to do their school work as a
-          college student, as well as for their part time job as a college
-          student assistant. They find that using the file sharing feature to
-          collaborate with their classmates makes doing work much more
-          convenient. However, they express wariness regarding the information
-          that companies like Google collects about their personal life, and
-          would like to see tech creators be more ethical about how they create
-          new products.
-        </li>
-        <li>GOALS: </li>
-        <li>1. Using file sharing features for collaborative reasons in school
-        </li>
-        <li>2. Backing up personal data</li>
-        <li>3. Saving old, sentimental pictures</li>
-        <li>FRUSTRATIONS:</li>
-        <li>1. Fear of being unable to control the data put in cloud</li>
-        <li>2. Distrust towards tech industries, and how it can infringe on an
-          individual’s personal liberties</li>
-        <li>3. Tech being inaccessible for people who come from underprivileged
-          backgrounds</li>
-        <li>BIOGRAPHY</li>
-        <li>Charlene lives with their mother, sister, and brother. They are fond
-          of playing games on their Nintendo Switch, and likes to hang out with
-          friends, read books, and knit in their spare time. They are an avid
-          user of technology, and use it daily for things such as social media
-          and listening to music.
-        </li>
-      </ul>
-
+      <div class="user-persona">
+        <ul class="persona">
+          <h3 class="p-title">AZUL</h3>
+          <h4 class="p-description">reluctant user</h4>
+          <img src="images/UserPersona/Azul.png" class="p-img">
+          <li>Age: 33 years</li>
+          <li>Sex: Female</li>
+          <li>Occupation: Medical Interpreter</li>
+          <li>Location: Yucatan, MX</li>
+          <li>MOTIVATIONS:</li>
+          <li>An avid nature lover, Azul first started using cloud storages so
+            that she can enjoy the outdoors while doing her homework on Google Drive
+            from her phone. While she is currently an infrequent user now that she
+            has left her college years, Azul seems to be motivated by the
+            convenience that cloud storages can give her, and the freedom of
+            movement so that she can do her work wherever she wants.
+          </li>
+          <li>GOALS:</li>
+          <li>1. Save her writing and pictures</li>
+          <li>2. Share files with friends</li>
+          <li>3. Backing up important personal data</li>
+          <li>FRUSTRATIONS:</li>
+          <li>1. Inability to trust how the companies managing cloud storages use
+            people’s personal information</li>
+          <li>2. Lack of ethics in large companies like Google and Facebook</li>
+          <li>3. Inability to personalize/accessorize cloud storages</li>
+          <li>BIOGRAPHY</li>
+          <li>Azul lives with her cat in Mexico. An introvert with social anxiety,
+            she is an avid user of social media, which she relies on to make
+            connections with online communities. She is passionate about social
+            justice and has a strong sense of ethics and morality. On her time
+            off, she loves playing the ukelele and singing songs, as well as
+            reading and writing.
+          </li>
+        </ul>
+        <ul class="persona">
+          <h3 class="p-title">CHARLENE</h3>
+          <h4 class="p-description">ethical pragmatist</h4>
+          <img src="images/UserPersona/Charlene.png" class="p-img">
+          <li>Age: 22 years</li>
+          <li>Sex: Non-Binary</li>
+          <li>Occupation: Student</li>
+          <li>Location: Lawndale, CA</li>
+          <li>MOTIVATIONS</li>
+          <li>Charlene primarily uses cloud storage to do their school work as a
+            college student, as well as for their part time job as a college
+            student assistant. They find that using the file sharing feature to
+            collaborate with their classmates makes doing work much more
+            convenient. However, they express wariness regarding the information
+            that companies like Google collects about their personal life, and
+            would like to see tech creators be more ethical about how they create
+            new products.
+          </li>
+          <li>GOALS: </li>
+          <li>1. Using file sharing features for collaborative reasons in school
+          </li>
+          <li>2. Backing up personal data</li>
+          <li>3. Saving old, sentimental pictures</li>
+          <li>FRUSTRATIONS:</li>
+          <li>1. Fear of being unable to control the data put in cloud</li>
+          <li>2. Distrust towards tech industries, and how it can infringe on an
+            individual’s personal liberties</li>
+          <li>3. Tech being inaccessible for people who come from underprivileged
+            backgrounds</li>
+          <li>BIOGRAPHY</li>
+          <li>Charlene lives with their mother, sister, and brother. They are fond
+            of playing games on their Nintendo Switch, and likes to hang out with
+            friends, read books, and knit in their spare time. They are an avid
+            user of technology, and use it daily for things such as social media
+            and listening to music.
+          </li>
+        </ul>
+      </div>
 
       <!--06. USER STORIES-->
       <h2>USER STORIES</h2>
-      <img src="images/UserStories.png">
+      <img src="images/UserStories.png" class="large">
 
 
       <!--07. USER FLOW-->
       <h2>USER FLOW</h2>
-      <img src="images/UserFlow.png">
+      <img src="images/UserFlow.png" class= "large">
 
 
       <!--08. COMPETITIVE ANALYSIS-->
@@ -257,7 +285,9 @@
         selling photographic memorabilia could attract a niche market.
       </p>
       <!-- change to href later -->
-      <h4>view detailed analysis</h4>
+      <button class="button_green">
+        <a href="">view detailed analysis</a>
+      </button>
 
 
       <!--09. WIREFRAMES-->
@@ -265,9 +295,13 @@
       <p>The wireframes for the initial design were made based on a protytpe
         called MyCloud, which was the first iteration of this project.
       </p>
-      <img src="images/Wireframe.png">
-      <!-- change to href later -->
-      <h4>view wireframe</h4>
+      <div class="dark-background">
+        <img src="images/Wireframe.png" class="large">
+        <!-- change to href later -->
+        <button class="button_pink">
+          <a href="">view wireframe</a>
+        </button>
+      </div>
 
 
       <!--10. WIREFRAMES-->
@@ -307,7 +341,7 @@
         iteration, I created the following logo and the color
         scheme that was to go with it, as well as the chosen font:
       </p>
-      <img src="images/StyleGuide/MyCloud.png">
+      <img src="images/StyleGuide/MyCloud.png" class="large">
       <p>I went with blue and yellow to convey the sky to match the cloud brand,
         and included darker red and green to give the program a neutral
         appearance since I believed the aforementioned colors to be too bright.
@@ -318,7 +352,7 @@
         iteration, I created the folowing logo and color
         scheme, as well as the chosen font:
       </p>
-      <img src="images/StyleGuide/MyFolder.png">
+      <img src="images/StyleGuide/MyFolder.png" class="large">
       <p>I chose more dramatic colors to catch the eyes of a younger audience,
         focusing primarily on the contrast between dark grey and pink. I also
         chose Dosis for the logo’s font, as its much narrower appearance gives
@@ -331,8 +365,8 @@
         iteration, I created the following logo and color
         scheme, as well as the chosen font:
       </p>
-      <img src="images/StyleGuide/MemeFolder.png">
-      <img src="images/StyleGuide/MemeFolder2.png">
+      <img src="images/StyleGuide/MemeFolder.png" class="large">
+      <img src="images/StyleGuide/MemeFolder2.png" class="large">
       <p>I made minor changes to the logo to make it look minimalistic without
         appearing to be childish, and added different variations of what it
         could look like under different cirumstances. There is also minor color
@@ -354,41 +388,63 @@
         the preference test, people preferred a narrow left hand column and the
         star located before the file name.
       </p>
-      <img src="images/MyCloud.png">
-      <!-- change to href later -->
-      <h4>view user testing result</h4>
+      <div class="dark-background">
+        <img src="images/MyCloud.png" class="large">
+        <!-- change to href later -->
+        <button class="button_pink">
+          <a href="project.html">view user testing result</a>
+        </button>
+      </div>
       <p>In the <span class="underline_green">MyFolder</span> iteration, I
         changed direction to create an app only version. The program initially
         had a bar at the bottom of the screen and app settings in the side bar.
         This was, however, an inconvenient design, and after running a test I
         ended up removing both and putting the features in the side bar instead.
       </p>
-      <img src="images/myFolder_RD/login.png">
-      <img src="images/myFolder_RD/home.png">
-      <img src="images/myFolder_RD/side.png">
-      <!-- change to href later -->
-      <h4>view prototype</h4>
-      <img src="images/myFolder_final/login.png">
-      <img src="images/myFolder_final/home.png">
-      <img src="images/myFolder_final/side.png">
-      <!-- change to href later -->
-      <h4>view prototype</h4>
+      <div class="dark-background">
+        <div class="large">
+          <img src="images/myFolder_RD/login.png" class="c1">
+          <img src="images/myFolder_RD/home.png" class="c1">
+          <img src="images/myFolder_RD/side.png" class="c1">
+        </div>
+        <!-- change to href later -->
+        <button class="button_pink">
+          <a href="">view prototype</a>
+        </button>
+      </div>
+      <div class="dark-background">
+        <div class="large">
+          <img src="images/myFolder_final/login.png" class="c2">
+          <img src="images/myFolder_final/home.png" class="c2">
+          <img src="images/myFolder_final/side.png" class="c2">
+        </div>
+        <!-- change to href later -->
+        <button class="button_pink">
+          <a href="">view prototype</a>
+        </button>
+      </div>
       <p>In the <span class="underline_pink">MemeFolder</span>
         iteration, I kept the integrity of the app, but
         changed the logo and made minor adjustments to the color scheme. Having
         recieved feedback that the logo at the time was not very aesthetically
         pleasing, I made adjustments to improve its appearance.
       </p>
-      <img src="images/MemeFolder/login.png">
-      <img src="images/MemeFolder/home.png">
-      <img src="images/MemeFolder/side.png">
+      <div class="dark-background">
+        <div class="large">
+          <img src="images/MemeFolder/login.png" class="c2">
+          <img src="images/MemeFolder/home.png" class="c2">
+          <img src="images/MemeFolder/side.png" class="c2">
+        </div>
+      </div>
 
 
       <!--13. PROTOTYPE-->
       <h2>PROTOTYPE</h2>
       <p>The completed prototype for the MemeFolder app can be found here:</p>
       <!-- change to href later -->
-      <h4>view prototype</h4>
+      <button class="button_green">
+        <a href="">view prototype</a>
+      </button>
       <p>In conclusion, the MemeFolder app is a personalized product that is
         geared to suit individual users. This is geared towards Millennials who
         can use it to save and create memes, which is an important part of
@@ -397,28 +453,22 @@
       </p>
 
       <!-- change to href later -->
-      <h4>view next project</h4>
+      <a href="">view next project</a>
 
-
-    </div>
+      <ul class="contact">
+        <!-- dead links -->
+        <li>
+          EMAIL |
+        </li>
+        <li>
+          GITHUB |
+        </li>
+        <li>
+          LINKEDIN
+        </li>
+      </ul>
 
     <footer class="foot">
-
-      <nav class="footer-nav">
-        <ul class="footer-nav_3">
-          <!-- links are not established yet -->
-          <li>
-            <h4>EMAIL</h4>
-          </li>
-          <li>
-            <h4>GITHUB</h4>
-          </li>
-          <li>
-            <h4>LINKEDIN</h4>
-          </li>
-        </ul>
-      </nav>
-
       <p class="copyright">(c) Grace Lee 2018</p>
     </footer>
   </body>
