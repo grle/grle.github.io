@@ -17,8 +17,10 @@
   <header class= "header">
 
     <nav class="header-nav">
-      <!--icon :: NOTE make this link to homepage-->
-      <img src="images/Icon.png" class="icon">
+      <!--icon-->
+      <a href="index.html">
+        <img src="images/Icon.png" class="icon">
+      </a>
       <!-- navigate to pages here -->
       <ul class="header-nav_3">
         <li>
@@ -49,9 +51,10 @@
     <div class="curve"></div>
 
     <!--01. ROLES-->
-    <div class="roles">
+    <div class="c_holder">
       <div class="c1">
         <h5>DESIGN ROLES</h5>
+        <div class="space_1un"></div>
         <ul>
           <li>UX Design</li>
           <li>Research</li>
@@ -62,6 +65,7 @@
 
       <div class="c1">
         <h5>DELIVERABLES</h5>
+        <div class="space_1un"></div>
         <ul>
           <li>User Surveys</li>
           <li>Personas</li>
@@ -73,11 +77,13 @@
           <li>User Testing</li>
           <li>User Research</li>
           <li>Prototype</li>
+          <li><div class="space_1un"></div><li>
         </ul>
       </div>
 
       <div class="c1">
         <h5>TOOLS</h5>
+        <div class="space_1un"></div>
         <ul>
           <li>InVision</li>
           <li>Adobe Photoshop</li>
@@ -135,39 +141,47 @@
 
 
       <!--04. USER SURVEY-->
-      <h2>USER SURVEY</h2>
-      <p>The user survey was created before the branding was established. I
-        wrote the questions assuming that I will be creating a generic cloud
-        storage program. The results I got from the people who completed the
-        survey went as follows:
-      </p>
-      <p class= "white-center">80% of users have a cloud storage
-        The most common reasons why people use a cloud storage is</p>
-        <ul class="num_list">
-          <li>1) for work/school: 85.7%</li>
-          <li>2) personal reasons: 71.4%</li>
-          <li>3) collaboration and file sharing: 64.3%</li>
-        </ul>
+      <div class="grey-background">
+        <h2>USER SURVEY</h2>
+        <p>The user survey was created before the branding was established. I
+          wrote the questions assuming that I will be creating a generic cloud
+          storage program. The results I got from the people who completed the
+          survey went as follows:
+        </p>
+        <div class="dark-background-curve">
+          <p>80% of users have a cloud storage</p>
+          <p>The most common reasons why people use a cloud storage is</p>
+            <ul class="num_list">
+              <li>1) for work/school: 85.7%</li>
+              <li>2) personal reasons: 71.4%</li>
+              <li>3) collaboration and file sharing: 64.3%</li>
+            </ul>
 
-      <p>When asked what features they rely on, 82.1% of users</p>
-        <ul class="num_list">
-          <li>1) upload files to backup data</li>
-          <li>2) upload files for easy access between devices</li>
-          <li>3) file sharing with friends/colleagues</li>
-        </ul>
+          <p>When asked what features they rely on, 82.1% of users</p>
+            <ul class="num_list">
+              <li>1) upload files to backup data</li>
+              <li>2) upload files for easy access between devices</li>
+              <li>3) file sharing with friends/colleagues</li>
+            </ul>
+        </div>
 
-      <p>Majority of people surveyed are Millennials or Generation Z.
-      </p>
-      <!-- change to href later-->
-      <button class="button_pink">
-        <a href="">view survey questions</a>
-      </button>
-      <p>My intention was to create a cloud storage that addressed the
-        aforementioned issues, which is evident in early prototypes. However,
-        the idea for the meme editing feature came because
-        <span class="underline_green">100% of the surveyed
-        users are active participants of social media.</span>
-      </p>
+        <p>Majority of people surveyed are Millennials or Generation Z.
+        </p>
+        <!-- change to href later-->
+        <button class="button_pink"> <!--better link -->
+          <a href="https://drive.google.com/open?id=1f7WDNaMPO1XSui5VBfzxGXfMurW1_vT4">
+            view survey questions</a>
+        </button>
+        <p>My intention was to create a cloud storage that addressed the
+          aforementioned issues, which is evident in early prototypes. However,
+          the idea for the meme editing feature came because
+          <span class="underline_green">100% of the surveyed
+          users are active participants of social media.</span>
+        </p>
+        <div class="space_1un"></div>
+        <div class="space_1un"></div>
+        <div class="space_1un"></div>
+      </div>
 
 
       <!--05. USER PERSONA-->
@@ -219,7 +233,7 @@
           <li>Sex: Non-Binary</li>
           <li>Occupation: Student</li>
           <li>Location: Lawndale, CA</li>
-          <li>MOTIVATIONS</li>
+          <li>MOTIVATIONS:</li>
           <li>Charlene primarily uses cloud storage to do their school work as a
             college student, as well as for their part time job as a college
             student assistant. They find that using the file sharing feature to
@@ -269,24 +283,41 @@
         unusual to compare with more traditional cloud storages to see how it
         would do in comparison.
       </p>
-      <!-- Google Drive img -->
-      <p class="c2">This is the most popular cloud storage among the users surveyed, and
-        among the most user friendly. Google Drive has file editing programs and
-        allows for real time collaboration between different users.
-      </p>
-      <!-- Dropbox img -->
-      <p class="c2">Dropbox is another widely used cloud storage, and is especially popular
-        for businesses. They do have problems with security, as well as with
-        syncing, which results in duplicate files.
-      </p>
-      <!-- Amazon img -->
-      <p class="c2">Amazon Drive is not as widely used, though it comes from a strong
-        brand. While user interface is not as friendly, its primary purpose in
-        selling photographic memorabilia could attract a niche market.
-      </p>
+
+      <div class="c_holder">
+        <!-- Google Drive-->
+        <div class="c1">
+          <img src="images/CompetitiveAnalysis/GoogleDrive.png" class="p-img">
+          <ul>
+            <li>This is the most popular cloud storage among the users surveyed, and
+            among the most user friendly. Google Drive has file editing programs and
+            allows for real time collaboration between different users.</li>
+            <div class="space_1un"></div>
+          </ul>
+        </div>
+        <!-- Dropbox -->
+        <div class="c1">
+          <img src="images/CompetitiveAnalysis/Dropbox.png" class="p-img">
+          <ul>
+            <li>Dropbox is another widely used cloud storage, and is especially popular
+            for businesses. They do have problems with security, as well as with
+            syncing, which results in duplicate files.</li>
+          </ul>
+        </div>
+        <!-- Amazon -->
+        <div class="c1">
+          <img src="images/CompetitiveAnalysis/Amazon.png" class="p-img">
+          <ul>
+            <li>Amazon Drive is not as widely used, though it comes from a strong
+            brand. While user interface is not as friendly, its primary purpose in
+            selling photographic memorabilia could attract a niche market.</li>
+          </ul>
+        </div>
+      </div>
       <!-- change to href later -->
-      <button class="button_green">
-        <a href="">view detailed analysis</a>
+      <button class="button_green"> <!-- better link -->
+        <a href="https://docs.google.com/document/d/13fusIa2R8ForkDFVPQRRaktyk0-dc0nnoTfWf9h0-Ok/edit">
+          view detailed analysis</a>
       </button>
 
 
@@ -299,7 +330,8 @@
         <img src="images/Wireframe.png" class="large">
         <!-- change to href later -->
         <button class="button_pink">
-          <a href="">view wireframe</a>
+          <a href="https://www.figma.com/proto/U7v5ZNbbXWDlzQeoizovReyu/MyCloud?node-id=18%3A149&viewport=249%2C164%2C0.0878795&scaling=min-zoom">
+            view wireframe</a>
         </button>
       </div>
 
@@ -392,7 +424,7 @@
         <img src="images/MyCloud.png" class="large">
         <!-- change to href later -->
         <button class="button_pink">
-          <a href="project.html">view user testing result</a>
+          <a href="">view user testing result</a>
         </button>
       </div>
       <p>In the <span class="underline_green">MyFolder</span> iteration, I
@@ -402,17 +434,20 @@
         ended up removing both and putting the features in the side bar instead.
       </p>
       <div class="dark-background">
+        <h4 class="white">BEFORE:</h4>
         <div class="large">
-          <img src="images/myFolder_RD/login.png" class="c1">
-          <img src="images/myFolder_RD/home.png" class="c1">
-          <img src="images/myFolder_RD/side.png" class="c1">
+          <img src="images/myFolder_RD/login.png" class="c2">
+          <img src="images/myFolder_RD/home.png" class="c2">
+          <img src="images/myFolder_RD/side.png" class="c2">
         </div>
         <!-- change to href later -->
         <button class="button_pink">
-          <a href="">view prototype</a>
+          <a href="https://www.figma.com/proto/Lqp5jDqtGq26wHpCPuqjxTGq/MyFolder?node-id=34%3A346&viewport=299%2C148%2C0.0784457&scaling=min-zoom">
+            view prototype</a>
         </button>
       </div>
       <div class="dark-background">
+        <h4 class="white">AFTER:</h4>
         <div class="large">
           <img src="images/myFolder_final/login.png" class="c2">
           <img src="images/myFolder_final/home.png" class="c2">
@@ -420,7 +455,8 @@
         </div>
         <!-- change to href later -->
         <button class="button_pink">
-          <a href="">view prototype</a>
+          <a href="https://www.figma.com/proto/Lqp5jDqtGq26wHpCPuqjxTGq/MyFolder?node-id=125%3A1716&viewport=299%2C148%2C0.0784457&scaling=min-zoom">
+            view prototype</a>
         </button>
       </div>
       <p>In the <span class="underline_pink">MemeFolder</span>
@@ -443,7 +479,8 @@
       <p>The completed prototype for the MemeFolder app can be found here:</p>
       <!-- change to href later -->
       <button class="button_green">
-        <a href="">view prototype</a>
+        <a href="https://www.figma.com/proto/7TosMbpay1aMCw36C0Qcgb/MemeFolder?node-id=125%3A1716&viewport=299%2C148%2C0.0784457&scaling=min-zoom">
+          view prototype</a>
       </button>
       <p>In conclusion, the MemeFolder app is a personalized product that is
         geared to suit individual users. This is geared towards Millennials who
@@ -452,24 +489,31 @@
         useful to the average user.
       </p>
 
-      <!-- change to href later -->
-      <a href="">view next project</a>
+      <!-- make into button? -->
+      <button class="next_button">
+        <a>view next project</a>
+      </button>
 
       <ul class="contact">
         <!-- dead links -->
         <li>
-          EMAIL |
+          <a href="" class="green_hover">EMAIL</a> |
         </li>
         <li>
-          GITHUB |
+          <a href="https://github.com/grle" class="green_hover">GITHUB</a> |
         </li>
         <li>
-          LINKEDIN
+          <a href="https://www.linkedin.com/in/graceleeln/" class="green_hover">
+            LINKEDIN</a>
         </li>
       </ul>
 
-    <footer class="foot">
-      <p class="copyright">(c) Grace Lee 2018</p>
-    </footer>
+      <footer>
+        <ul class="foot">
+          <li>(c) Grace Lee 2018</li>
+        </ul>
+      </footer>
+
   </body>
+
 </html>

@@ -57,6 +57,9 @@ a {
   padding: 0.5rem 0.75rem;
   display: inline-block;
 }
+.header-nav_3 li a:hover {
+  color: #FF537B;
+}
 
 h1 {
   padding-left: 10vw;
@@ -108,28 +111,59 @@ h1 {
   width: 60%;
 }
 
+/*columns are not interactive*/
 .c1 {
-  float: left;
-  width: 33.33%;
+  width: 30%;
   background-color: #F2F2F2;
+  border: 6px solid white;
   font-family: Bitter;
+  display: table-cell;
+}
+.c1 li {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.c1 h5 {
+  padding-left: 1vw;
+}
+.space_1un {
+  height: 1vw;
 }
 .c2 {
   float: left;
-  width: 33.33%;
+  width: 30%;
+  border: 6px solid #1C1713;
 }
-.persona {
+.p-img {
+  width: 80%;
+  float: center;
+  display: block;
+  margin: auto;
   padding-top: 1vw;
-  float: left;
-  width: 50%;
+  padding-bottom: 1vw;
+}
+.persona { /*c3*/
+  padding-top: 1vw;
+  display: table-cell;
+  width: 48%;
   background-color: #F2F2F2;
   font-family: Bitter;
+  border: 6px solid white;
 }
-.roles, .user-persona {
+.persona li {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+}
+.c_holder {
+  padding-top: 5vw;
+}
+.c_holder, .user-persona { /*col containers*/
   width: 50%;
   margin: auto;
+  display: table;
 }
-.roles:after, .user-persona:after {
+.c_holder:after, .user-persona:after {
     content: "";
     display: table;
     clear: both;
@@ -178,13 +212,23 @@ h5 {
   margin: auto;
   width: 50%;
   padding-top: 1vw;
+  padding-bottom: 2vw;
+}
+.project-nav li img {
+  width: 40%;
 }
 
 .project-name {
   float: right;
   font-family: Bitter;
+  width: 50%;
 }
-
+.project-name button {
+  margin-top: 3vw;
+}
+.project-title {
+  padding-bottom: 3vw;
+}
 .project-description {
   /*something */
 }
@@ -209,15 +253,19 @@ h5 {
   padding-top: 1vw;
 }
 
-.foot {
+footer {
   background-color: #1C1713;
   color: white;
   font-family: Bitter;
   padding: 1vw;
 }
+.foot li {
+  text-align: right;
+  padding-right: 10vw;
+}
 
 p {
-  font-family: Bitter;/*change to Bitter*/
+  font-family: Bitter;
   margin: auto;
   width: 50%;
   padding-top: 1vw;
@@ -226,6 +274,8 @@ p {
 
 .white {
   color: white;
+  margin: auto;
+  width: 50%;
 }
 .num_list {
   padding-top: 1vw;
@@ -246,13 +296,30 @@ button {
   font-size: 15px;
   color: white;
   text-transform: uppercase;
+  display: inline-block;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
 }
 
 .button_green {
   background-color: #A0AE11;
+  margin-left: 50%;
+}
+.button_green_1 {
+  background-color: #A0AE11;
+}
+.button_green a:hover {
+  color: black;
+}
+.button_green_1 a:hover {
+  color: black;
 }
 .button_pink {
   background-color: #FF537B;
+  margin-left: 50%;
+}
+.button_pink a:hover {
+  color: black;
 }
 
 .underline_pink {
@@ -262,8 +329,67 @@ button {
   border-bottom: 3px solid #A0AE11;
 }
 
+.grey-background {
+  background-color: #F2F2F2;
+}
 .dark-background {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
   background-color: #1C1713;
   border: 1px solid white;
   overflow: auto;
+}
+.dark-background-curve {
+  display: inline-block;
+  background-color: #1C1713;
+  border-radius: 30%;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  padding-bottom: 1vw;
+  margin-top: 1vw;
+}
+.dark-background-curve p {
+  color: white;
+}
+.dark-background-curve ul {
+  color: white;
+}
+
+.next_button {/*disabled button*/
+  color: black;
+  margin-left: 50%;
+  cursor: not-allowed;
+}
+.green_hover {
+  color: black;
+}
+.green_hover:hover {
+  color: #A0AE11;
+}
+
+.email_placeholder {
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1vw;
+  margin-top: 3vw;
+}
+.email_placeholder h5 {
+  color: grey;
+  font-weight: 100;
+  padding-left: 1vw;
+}
+.message_placeholder {
+  background-color: white;
+  width: 50%;
+  height: 10vw;
+  margin: auto;
+}
+.message_placeholder h5 {
+  color: grey;
+  font-weight: 100;
+  padding-left: 1vw;
 }
