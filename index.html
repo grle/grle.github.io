@@ -4,8 +4,10 @@
   <head>
     <title>Grace Lee | UX Designer</title>
 
-    <!-- Google Fonts -->
     <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Google Fonts -->
     <link href = "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600"
     rel= "stylesheet">
     <link href = "https://fonts.googleapis.com/css?family=Bitter:300,400,500,600"
@@ -14,63 +16,65 @@
 
 
   <body>
-    <header class= "header">
+    <!--header-->
+    <div class="content">
+      <header class= "header">
+        <nav class="header-nav">
+          <!--icon-->
+          <a href="index.html" class="icon">
+            <img src="images/Icon.png" width="50" height="50">
+          </a>
+          <!-- navigate to pages here -->
+          <ul class="header-nav_3">
+            <li>
+              <a href="index.html" class="accent">PORTFOLIO</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
 
-      <nav class="header-nav">
-        <!--icon-->
-        <a href="index.html">
-          <img src="images/Icon.png" class="icon">
-        </a>
-        <!-- navigate to pages here -->
-        <ul class="header-nav_3">
-          <li>
-            <a href="index.html" class="accent">PORTFOLIO</a>
-          </li>
-          <li>
-            <a href="about.html">ABOUT</a>
-          </li>
-          <li>
-            <a href="contact.html">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
+        <!-- intro blurb -->
+        <div class= "intro">
+          <div class="holder">
+            <h1>Hello. My name is <span class="green">Grace Lee</span>.</h1>
+            <h1>I am a
+              <span class="pink">UX Designer</span> &
+              <span class="pink">Educator</span>
+            </h1>
+            <h1> based in the Bay Area.</h1>
+          </div>
+        </div>
 
-      <!-- intro blurb -->
-      <div class= "intro">
-        <h1>Hello. My name is <span class="green">Grace Lee</span>.</h1>
-        <h1>I am a
-          <span class="pink">UX Designer</span> &
-          <span class="pink">Educator</span>
-        </h1>
-        <h1> based in the Bay Area.</h1>
-      </div>
+      </header>
+      <div class="curve"></div>
 
-    </header>
-    <div class="curve"></div>
+      <section class="project-nav-wrapper">
+        <h2>DESIGN</h2>
 
-    <h2>DESIGN</h2>
+        <!-- MEME FOLDER -->
+        <div class="project-nav">
+          <img src="images/Design/MemeFolder.png">
+          <div class="project-name">
+            <h3 class="project-title">MemeFolder</h3>
+            Mobile app design <br>
+            Cloud storage meme folder <br>
+            <button class="button_green_1">
+              <a href="project1.html">view case study</a>
+            </button>
+          </div>
+        </div>
+        <!-- add other projects here -->
 
-    <ul class="project-nav">
+      </section>
+    </div>
 
-      <li>
-        <img src="images/Design/MemeFolder.png">
-        <ul class="project-name">
-          <h3 class="project-title">MemeFolder</h3>
-          <li>Mobile app design</li>
-          <li>Cloud storage meme folder</li>
-          <button class="button_green_1">
-            <a href="project.html">view case study</a>
-          </button>
-        </ul>
-      </li>
-
-    </ul>
-
-
-    <footer>
-      <ul class="foot">
-        <li>(c) Grace Lee 2018</li>
-      </ul>
+    <footer class="foot">
+      (c) Grace Lee 2018
     </footer>
 
 

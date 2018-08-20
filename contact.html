@@ -4,8 +4,10 @@
   <head>
     <title>Grace Lee | UX Designer</title>
 
-    <!-- Google Fonts -->
     <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Google Fonts -->
     <link href = "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600"
     rel= "stylesheet">
     <link href = "https://fonts.googleapis.com/css?family=Bitter:300,400,500,600"
@@ -13,65 +15,66 @@
   </head>
 
   <body>
-    <header class= "header">
+    <div class="content">
+      <header class= "header">
 
-      <nav class="header-nav">
-        <!--icon-->
-        <a href="index.html">
-          <img src="images/Icon.png" class="icon">
-        </a>
-        <!-- navigate to pages here -->
-        <ul class="header-nav_3">
-          <li>
-            <a href="index.html">PORTFOLIO</a>
-          </li>
-          <li>
-            <a href="about.html">ABOUT</a>
-          </li>
-          <li>
-            <a href="contact.html" class="accent">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
+        <nav class="header-nav">
+          <!--icon-->
+          <a href="index.html" class="icon">
+            <img src="images/Icon.png" width="50" height="50">
+          </a>
+          <!-- navigate to pages here -->
+          <ul class="header-nav_3">
+            <li>
+              <a href="index.html">PORTFOLIO</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="contact.html" class="accent">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
 
-      <!-- intro blurb -->
-      <div class= "intro">
-        <h1>Send me a message:</h1>
+        <!-- intro blurb -->
+        <div class= "intro">
+          <h1 class="msg">Send me a message:</h1>
 
-        <!-- placeholder -->
-        <div class="email_placeholder">
-          <h5>EMAIL:</h5>
+          <!-- placeholder -->
+          <div class="email_placeholder">
+            <h5>EMAIL:</h5>
+          </div>
+          <div class="message_placeholder">
+            <h5>MESSAGE:</h5>
+          </div>
+          <button class="button_green">
+            <a href="">send message</a>
+          </button>
+
         </div>
-        <div class="message_placeholder">
-          <h5>MESSAGE:</h5>
-        </div>
-        <button class="button_green">
-          <a href="">send message</a>
-        </button>
 
-      </div>
+      </header>
+      <div class="curve"></div>
 
-    </header>
-    <div class="curve"></div>
-
-    <ul class="contact">
-      <!-- dead links -->
-      <li>
-        <a href="" class="green_hover">EMAIL</a> |
-      </li>
-      <li>
-        <a href="https://github.com/grle" class="green_hover">GITHUB</a> |
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/graceleeln/" class="green_hover">
-          LINKEDIN</a>
-      </li>
-    </ul>
-
-    <footer>
-      <ul class="foot">
-        <li>(c) Grace Lee 2018</li>
+      <div class="space10"></div>
+      <ul class="contact">
+        <!-- dead links -->
+        <li>
+          <a href="" class="green_hover">EMAIL</a> |
+        </li>
+        <li>
+          <a href="https://github.com/grle" class="green_hover">GITHUB</a> |
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/graceleeln/" class="green_hover">
+            LINKEDIN</a>
+        </li>
       </ul>
+    </div>
+
+    <footer class="foot">
+      (c) Grace Lee 2018
     </footer>
 
   </body>
