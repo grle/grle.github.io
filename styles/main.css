@@ -88,12 +88,25 @@ button {
   font-family: Poppins;
   padding-right: 10vw;
 }
+.holder h1 {
+  padding-left: 0;
+  display:block;
+  width: 620px;
+  float: none;
+  position: relative;
+  margin: auto;
+}
+@media screen and (max-width: 780px) {
+  .holder h1 {
+    padding-left: 10vw;
+    width: auto;
+    margin: 0;
+    font-size: 30px;
+  }
+}
 @media screen and (max-width: 750px) {
   .header-nav_3 {
     padding-right: 1vw;
-  }
-  h1 {
-    font-size: 30px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -113,10 +126,11 @@ button {
     position: relative;
   }
   .holder h1 {
+    padding-left: 0;
     font-size: 20px;
     display: block;
     float: none;
-    width: 340px;
+    width: 300px;
     margin: auto;
     position: relative;
   }
@@ -136,6 +150,14 @@ button {
 }
 .header-nav_3 li a:hover {
   color: #FF537B;
+  /* border-bottom: 2px solid #FF537B; */
+  transition: all 0.5s;
+  transform: translateY(-5px);
+}
+.header-nav_3 li a.accent:hover {
+  border-bottom: 2px solid #FF537B;
+  transition: all 0.5s;
+  /* transform: translateY(-5px); */
 }
 
 .pink {
@@ -149,13 +171,18 @@ button {
   overflow: auto;
 }
 .curve {
-  height: 12vw;
+  height: 15vw;
   width: 100%;
-  display: inline-block;
-  background-color: #1C1713;
-  border-radius: 50% / 100%;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  background-image: url(../images/b-curve.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -2px;
+}
+@media screen and (max-width: 300px) {
+  .curve {
+    background-color: #1C1713;
+  }
 }
 
 .avi {
@@ -405,6 +432,7 @@ h5 {
   font-size: 20px;
 }
 .contact {
+  padding-top: 2vw;
   border-bottom: 2px solid #1C1713;
   width: 50%;
   margin: auto;
@@ -564,8 +592,15 @@ p {
 }
 .green_hover:hover {
   color: #A0AE11;
+  transition: all 0.5s;
+  transform: translateY(-5px);/* <--doesnt work?? */
+  /* font-weight: bold; */
 }
 
+.msg {
+  padding-left: 0;
+  text-align: center;
+}
 .email_placeholder {
   background-color: white;
   width: 50%;
@@ -593,13 +628,8 @@ p {
   .message_placeholder {
     height: 15vw;
   }
-  .msg {
-    padding-left: 0;
-    display: block;
-    text-align: center;
-  }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 780px) {
   .message_placeholder {
     height: 20vw;
   }
