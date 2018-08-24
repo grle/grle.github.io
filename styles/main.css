@@ -489,7 +489,7 @@ p {
 }
 
 /* tablet 900px //phone 600px */
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .blurb {
     font-size: 20px;
     width: 560px;
@@ -609,12 +609,12 @@ display: block;
   .contact li {
   letter-spacing: 5px;
   }
-}
+} */
 
 
 
 /* interactive media */
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .blurb {
     font-size: 20px;
     width: 560px;
@@ -785,4 +785,4 @@ display: block;
   .curve {
     background-color: #1C1713;
   }
-} */
+}
