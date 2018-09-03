@@ -21,9 +21,6 @@ html {
 }
 body {
   font-family: Bitter, sans-serif;
-  /* min-height:100%;
-  display: grid;
-  grid-template-rows: 1fr auto; */
 }
 ol {
   line-height: 1.5;
@@ -180,11 +177,8 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1vw;
-  margin-bottom: 20px;
+  margin: 0px auto 20px auto;
   width: 50%;
-  margin: auto;
-  margin-top: 1vw;
-  margin-bottom: 1vw;
 }
 .c1 {
   background-color: #F2F2F2;
@@ -208,13 +202,6 @@ button {
 .c2 {
   width: 100%;
 }
-
-/*
-@media screen and (max-width: 1000px) {
-  .c_holder {
-    grid-template-columns: 1fr;
-  }
-} */
 
 .user-persona {
   display: grid;
@@ -294,7 +281,6 @@ h5 {
   font-family: Bitter;
   margin: auto;
   width: 50%;
-  max-width: 1000px;
   padding-top: 1vw;
   padding-bottom: 2vw;
 }
@@ -460,12 +446,6 @@ p {
   margin-top: -20px;
 }
 
-/* .next-button {/*disabled button
-  color: black;
-  margin-left: 50%;
-  cursor: not-allowed;
-  margin-top: 10vw;
-} */
 .green_hover {
   color: black;
 }
@@ -518,14 +498,6 @@ p {
   transition: all 0.3s;
 }
 
-/* #Email {
-  background-color: white;
-
-}
-#Message {
-  background-color: white;
-} */
-
 /* interactive media */
 @media screen and (max-width: 1200px) {
   .avi1 img {
@@ -551,9 +523,6 @@ p {
   h2 {
     width: 70%;
   }
-  /* .project-nav-wrapper h2 {
-    width: 100%;
-  } */
   .project-nav-wrapper {
     width: 70%;
   }
@@ -607,14 +576,8 @@ p {
   .header-nav_3 {
     padding-right: 1vw;
   }
-  /* .avi2 {
-    width: 225px;
-    height: 225px;
-    padding-right: 1vw;
-  } */
   .intro-bio2 {
     font-size: 20px;
-    /* display: block; */
   }
 }
 @media screen and (min-width: 700px) {
@@ -679,7 +642,6 @@ p {
   .blurb {
   font-size: 14px;
   margin: auto;
-  /* width: auto; */
   }
   .intro h1 {
     padding-left: 0;
@@ -712,14 +674,6 @@ p {
   h2 {
     letter-spacing: 20px;
   }
-  /* .button_pink, .button_green, .next_button {
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-  }
-  .dark-background {
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-  } */
 }
 @media screen and (max-width: 490px) {
   .dark-background-curve p, .dark-background-curve ol {
@@ -742,9 +696,6 @@ p {
   .c1 li {
     padding: 3px 5px 0 5px;
   }
-  /* .blurb {
-    font-size: 12px;
-  } */
 }
 @media screen and (max-width: 390px) {
   h2 {
@@ -755,11 +706,6 @@ p {
     font-size: 13px;
   }
 }
-/* @media screen and (max-width: 357px) {
-  .project-nav img {
-    width:
-  }
-} */
 @media screen and (max-width: 335px) {
   .contact li {
     letter-spacing: 0;
