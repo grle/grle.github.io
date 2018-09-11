@@ -154,7 +154,13 @@ h1 {
   font-size: 30px;
   margin: auto 0 auto 0;
 }
-
+.MemeFolder-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.MemeFolderImg {
+  width: 100%;
+}
 .header-blurb {
   padding-left: 50px;
 }
@@ -166,7 +172,6 @@ h1 {
   font-size: 20px;
   font-family: Lora, serif;
   color: white;
-  width: 60%;
   max-width: 600px;
   display: block;
 }
@@ -578,6 +583,17 @@ p {
   .project-nav {
     grid-template-columns: 1fr;
   }
+  .MemeFolder-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .blurb-wrapper {
+    width: 70%;
+    margin: auto;
+  }
+  .MemeFolderImg {
+    width: 70%;
+    margin: auto;
+  }
   .user-persona {
     max-width: 400px;
     grid-template-columns: 1fr;
@@ -715,6 +731,7 @@ p {
     font-size: 13px;
     margin: auto;
     padding: 0;
+    width: 250px;
   }
   p, ol, .user-persona {
     font-size: 12px;
