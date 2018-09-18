@@ -20,15 +20,48 @@ html {
 }
 body {
   font-family: Lora, serif;
+  line-height: 1.4;
 }
 ol {
   line-height: 1.5;
 }
+h1, h2, h3, h4, h5 {
+  font-family: Poppins, sans-serif;
+}
 h1 {
   font-weight: 400;
-  line-height: 1.4;
-  font-family: Poppins, sans-serif;
+  line-height: 1.2;
   color: white;
+  overflow: hidden;
+}
+h2 {
+  letter-spacing: 17px;
+  font-weight: 200;
+  margin: auto;
+  text-align: center;
+  padding-top: 10vw;
+  padding-bottom: 1vw;
+  width: 50%;
+  max-width: 800px;
+  border-bottom: 1px solid #E0E0E0;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+h4 {
+  margin: 0;
+  border-bottom: 3px solid white;
+}
+h5 {
+  font-size: 20px;
+}
+footer {
+  background-color: #1C1713;
+  color: white;
+  font-family: Poppins, sans-serif;
+  padding: 25px;
 }
 /* button {
   background-color: none;
@@ -68,31 +101,27 @@ h1 {
 }
 
 .icon {
-  margin: 25px 0 0 50px;
+  margin: auto 0;
 }
 
 .header-nav {
   display: flex;
   justify-content: space-between;
   overflow: auto;
-  max-width: 1000px;
-  padding: 20px 0 20px 0;
-  margin: 0 auto 10px auto;
+  padding: 25px 50px;
+  margin: 10px auto 10px auto;
 }
 
-.header-nav_3 {
-  font-family: Poppins, sans-serif;
-  padding-right: 50px;
-}
 .holder h1 {
-  display:block;
-  width: 720px;
-  float: none;
-  position: relative;
+  width: 958px;
   margin: auto;
   padding-top: 5vw;
 }
 
+.header-nav_3 {
+  font-family: Poppins, sans-serif;
+  margin: auto 0;
+}
 .header-nav_3 li a {
   text-decoration: none;
   color: white;
@@ -124,6 +153,7 @@ h1 {
   color: #A0AE11;
   /* color: #12FCFB; */
 }
+
 .intro {
   /* padding: 5vw 0 3vw 0; */
   overflow: auto;
@@ -150,18 +180,25 @@ h1 {
 .bio-1 {
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 .intro-bio1 {
-  height: 150px;
-  font-size: 30px;
+  font-size: 2.7em;
   margin: auto 0 auto 0;
-}
-.MemeFolder-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  max-width: 610px;
 }
 .MemeFolderImg {
-  width: 100%;
+  /* width: 100%; */
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+.header-blurb {
+  text-align: center;
+}
+/* .MemeFolder-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .header-blurb {
   padding-left: 50px;
@@ -176,7 +213,7 @@ h1 {
   color: white;
   max-width: 600px;
   display: block;
-}
+} */
 
 .c_holder {
   display: grid;
@@ -265,45 +302,19 @@ h1 {
   background-color: #E0E0E0;
 }
 
-h2 {
-  font-family: Poppins, sans-serif;
-  letter-spacing: 17px;
-  font-weight: 200;
-  margin: auto;
-  text-align: center;
-  padding-top: 10vw;
-  padding-bottom: 1vw;
-  width: 50%;
-  max-width: 800px;
-  border-bottom: 1px solid #E0E0E0;
-}
+
 .project-nav-wrapper h2 {
   width: 100%;
   padding-top: 0;
 }
-h3 {
-  font-family: Poppins, sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  margin: 0;
-}
 .p-title {
   text-align: center;
-}
-h4 {
-  font-family: Poppins, sans-serif;
-  margin: 0;
-  border-bottom: 3px solid white;
 }
 .p-description {
   text-align: center;
   font-size: 20px;
   font-weight: 300;
   padding-bottom: 1vw;
-}
-h5 {
-  font-family: Poppins, sans-serif;
-  font-size: 20px;
 }
 
 .project-nav-wrapper {
@@ -314,7 +325,6 @@ h5 {
   padding-top: 1vw;
   padding-bottom: 2vw;
 }
-
 .project-nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -323,8 +333,9 @@ h5 {
 }
 
 .project-name {
-  font-family: Lora, serif;;
+  font-family: Lora, serif;
   margin: auto auto auto auto;
+  padding: 10px;
 }
 .project-name-button {
   margin: 30px 0 0 -5px;
@@ -352,12 +363,6 @@ h5 {
   padding: 25px;
 }
 
-footer {
-  background-color: #1C1713;
-  color: white;
-  font-family: Poppins, sans-serif;
-  padding: 25px;
-}
 .foot {
   text-align: right;
   padding-right: 100px;
@@ -365,10 +370,6 @@ footer {
   grid-row-end: 3;
 }
 
-p {
-  font-family: Lora, serif;;
-  line-height: 1.5;
-}
 .p-container {
   margin: auto;
   width: 50%;
@@ -467,22 +468,48 @@ p {
   display: inline-block;
   background-color: #1C1713;
   width: 100%;
-  height: auto;
-  overflow: auto;
-  padding: 30px 0 30px 0;
   color: white;
   font-size: 19px;
 }
 .dark-background-curve p {
-  margin-left:50px;
-  margin-right: 50px;
+  border-bottom: 1px solid white;
+  font-family: Poppins, san-serif;
+  font-weight: bold;
+  margin: 30px;
 }
 .dark-background-curve ol {
-  margin-left:50px;
-  margin-right: 50px;
-  margin-top: -20px;
 }
-
+.stat-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  margin: auto;
+}
+.stat-wrapper span {
+  margin: auto 25px auto auto;
+}
+.stat-wrapper ol {
+  font-size: 15px;
+  padding-left: 30px;
+  border-left: 1px solid white;
+}
+.pink_large {
+  color: #FF537B;
+  font-size: 4em;
+}
+.green_large {
+  color: #A0AE11;
+  font-size: 4em;
+}
+.stat-table {
+  font-size: 15px;
+  margin: auto;
+  text-align: left;
+}
+.stat-table th {
+  font-weight: 100;
+  padding-left: 10px;
+}
 .green_hover {
   color: black;
 }
@@ -493,7 +520,6 @@ p {
   transform: translateY(-5px);/* <--doesnt work?? */
   /* font-weight: bold; */
 }
-
 .msg {
   padding-left: 0;
   text-align: center;
@@ -512,7 +538,7 @@ p {
   width: 100%;
   font-family: Poppins, sans-serif;
   padding: 5px;
-  margin: 5px 5px 5px 0;
+  margin: 5px 5px 10px 0;
 }
 #contact-area input.submit-button {
   background-color: #1C1713;
@@ -556,9 +582,10 @@ p {
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 975px) {
   .bio-1 h1 {
-    font-size: 20px;
+    font-size: 30px;
+    max-width: 520px;
   }
   .avi1 img {
     margin-left: 50px;
@@ -567,7 +594,7 @@ p {
   }
   .holder h1 {
     font-size: 30px;
-    width: 450px;
+    width: 500px;
   }
   .msg {
     font-size: 30px;
@@ -578,6 +605,7 @@ p {
   .blurb {
     font-size: 15px;
   }
+
 }
 
 @media screen and (max-width: 770px) {
@@ -625,6 +653,10 @@ p {
   .project-name {
     display: block;
     margin: auto;
+    max-width: 300px;
+  }
+  .stat-wrapper {
+    width: 80%;
   }
 }
 
@@ -642,7 +674,7 @@ p {
     float: none;
     margin: auto;
     position: relative;
-    width: 303px;
+    width: 310px;
     font-size: 18px;
   }
   .avi2 {
@@ -698,7 +730,7 @@ p {
   }
  .header-nav {
     display: block;
-    padding-bottom: 10px;
+    padding: 10px 0 0 10px;
   }
   .icon {
     height: 50px;
@@ -709,12 +741,11 @@ p {
   }
   .header-nav_3 {
     display: block;
-    padding-right: 0;
     float: none;
     margin: auto;
     position: relative;
     font-size: 13px;
-    width: 250px;
+    width: 264px;
   }
   .holder h1 {
     font-size: 20px;
@@ -737,14 +768,17 @@ p {
   p, ol, .user-persona {
     font-size: 12px;
   }
-  .dark-background-curve ol {
-    margin-top: -10px;
-    margin-left: 25px;
-    margin-right: 25px;
+  .pink_large, .green_large {
+    font-size: 30px;
+  }
+  .stat-table, .stat-wrapper ol {
+    font-size: 11px;
   }
   .dark-background-curve p {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 10px;
+  }
+  .stat-wrapper {
+    width: 90%;
   }
 }
 /* * {border: 1px solid black;} */
