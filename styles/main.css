@@ -156,9 +156,10 @@ footer {
 
 .intro {
   /* padding: 5vw 0 3vw 0; */
-  overflow: auto;
-  max-width: 1000px;
+  /* overflow: auto;
+  max-width: 1000px; */
   margin: auto;
+  overflow: hidden;
 }
 .curve {
   height: 20vw;
@@ -190,8 +191,10 @@ footer {
 .MemeFolderImg {
   /* width: 100%; */
   display: block;
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  padding-top: 50px;
+  /* margin: auto;
+  padding: 20px; */
 }
 .header-blurb {
   text-align: center;
@@ -218,7 +221,14 @@ footer {
   max-width: 600px;
   display: block;
 } */
-
+.blurb {
+  margin: auto;
+  color: white;
+  font-size: 30px;
+  font-family: Lora, serif;
+  padding: 0 50px;
+  max-width: 1000px;
+}
 .c1_holder, .c2_holder {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -625,9 +635,11 @@ footer {
   .header-blurb {
     font-size: 30px;
   }
-  /* .blurb {
-    font-size: 15px;
-  } */
+  .blurb {
+    font-size: 18px;
+    width: 70%;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 770px) {
@@ -636,17 +648,17 @@ footer {
     padding-bottom: 50px;
     border-bottom: 1px solid #E0E0E0;
   }
-  .MemeFolder-wrapper {
+  /* .MemeFolder-wrapper {
     grid-template-columns: 1fr;
-  }
+  } */
   /* .blurb-wrapper {
     width: 70%;
     margin: auto;
   } */
-  .MemeFolderImg {
+  /* .MemeFolderImg {
     width: 70%;
     margin: auto;
-  }
+  } */
   .user-persona {
     max-width: 400px;
     grid-template-columns: 1fr;
@@ -691,10 +703,21 @@ footer {
   .small_img {
     display: none;
   }
+  .MemeFolderOne {
+    display: none;
+  }
 }
 @media screen and (max-width: 700px) {
   .bio-1 {
     display: none;
+  }
+  .MemeFolderImg {
+    display: none;
+  }
+  .MemeFolderOne {
+    margin: auto;
+    width: 50%;
+    display: block;
   }
   .intro-bio2 {
     padding-top: 5vw;
@@ -806,12 +829,10 @@ footer {
     padding: 0;
     text-align: center;
   }
-  /* .blurb {
-    font-size: 13px;
-    margin: auto;
-    padding: 0;
-    width: 250px;
-  } */
+  .blurb {
+    font-size: 16px;
+    width: 80%;
+  }
   p, ol, .user-persona {
     font-size: 16px;
   }
