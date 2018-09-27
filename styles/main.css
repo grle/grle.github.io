@@ -496,6 +496,11 @@ footer {
   margin: auto;
   display: block;
 }
+.widepic {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
 
 .dark-background-curve {
   display: inline-block;
@@ -537,7 +542,7 @@ footer {
 .stat-table {
   font-size: 15px;
   margin: auto;
-  text-align: left;
+  text-align: right;
 }
 .stat-table th {
   font-weight: 100;
@@ -706,6 +711,9 @@ footer {
   .MemeFolderOne {
     display: none;
   }
+  /* .longpic {
+    display: none;
+  } */
 }
 @media screen and (max-width: 700px) {
   .bio-1 {
@@ -713,6 +721,15 @@ footer {
   }
   .MemeFolderImg {
     display: none;
+  }
+  /* .widepic {
+    display: none;
+  }
+  .longpic {
+    width: 100%;
+  } */
+  .widepic {
+    width: 100%;
   }
   .MemeFolderOne {
     margin: auto;
