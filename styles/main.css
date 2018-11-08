@@ -255,6 +255,11 @@ footer {
   width: 50%;
   max-width: 800px;
 }
+.onepic {
+  display: block;
+  margin: 0px auto 20px auto;
+  width: 50%;
+}
 .c1 {
   background-color: #F2F2F2;
   font-family: Lora, serif;
@@ -509,7 +514,7 @@ footer {
 .dark-background a {
   margin-top: 35px;
 }
-.large_img {
+.large_img, .large_img_perm {
   width: 80%;
   margin: auto;
   display: block;
@@ -656,7 +661,7 @@ footer {
   .p-container,.user-persona {
     width: 70%;
   }
-  .c1_holder, .c1_holder2, .c2_holder, .user-stories {
+  .c1_holder, .c1_holder2, .c2_holder, .user-stories, .onepic {
     width: 80%;
   }
 }
@@ -752,15 +757,21 @@ footer {
   .MemeFolderOne {
     display: none;
   }
+  .userflow_group {
+    display: none;
+  }
 }
 @media screen and (max-width: 700px) {
+  .userflow_group {
+    width: 90%;
+  }
   .bio-1 {
     display: none;
   }
   .MemeFolderImg {
     display: none;
   }
-  .widepic {
+  .widepic, .large_img_perm {
     width: 100%;
   }
   .MemeFolderOne {
@@ -792,7 +803,7 @@ footer {
   .p-container {
     width: 90%;
   }
-  .c1_holder, .c1_holder2, .c2_holder {
+  .c1_holder, .c1_holder2, .c2_holder, .onepic {
     width: 90%;
   }
   .large, .user-stories, .white {
